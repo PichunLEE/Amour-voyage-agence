@@ -1,0 +1,22 @@
+.encart {
+    background-color: violet;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.under {
+    text-decoration:underline gold;
+}
+
+.small-block {
+    text-indent: 35px;
+}  
+
+.isole {
+    background-color:purple;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,19 @@
+
+h1 {
+    color:yellow;
+    background-color: purple;
+    font-size: 40px;
+    padding-left: 300px;
+    border: 10px double gainsboro
+}
+
+#intro{
+    color: goldenrod;
+}
+
+
+.para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
