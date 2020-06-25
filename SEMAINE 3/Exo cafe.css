@@ -1,0 +1,18 @@
+.isole {
+    background-color: brown;
+    color: cornsilk;
+}
+
+body{
+background-image:url('Cafe.jpg');
+background-size: 100%;
+}
+
+.float{
+float: right;
+}
+
+
+
+
+

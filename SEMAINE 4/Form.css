@@ -1,0 +1,47 @@
+h1{
+    color: rosybrown;
+    border:5px solid slateblue;
+
+}
+
+h1:hover{
+color: springgreen;
+border:5px solid slateblue;
+
+}
+
+.carre{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+.carre:active{
+background-color: yellow;
+width: 200px;
+height: 200px;
+}
+
+input :focus {
+    background-color: yellowgreen;
+    color: white;
+    border-color: tomato;
+}
+
+.range:in-range{
+    background-color: yellowgreen;
+}
+
+.range:out-of-range{
+    background-color: tomato;
+}
+
+input[type="email"]:valid{
+    background-color: turquoise;
+}
+
+input[type="email"]:invalid{
+    background-color: turquoise;
+}
+
+

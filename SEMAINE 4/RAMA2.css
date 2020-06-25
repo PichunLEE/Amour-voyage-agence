@@ -1,0 +1,64 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: teal;
+    font-size:2em;
+    font-weight: bolder;
+    padding: 5px 10px;
+    color:white;
+}
+
+h1{
+    font-size:1.5em;
+    margin-left:20px;
+    text-decoration: underline wheat;
+   
+}
+
+h2{
+    font-size:1.1em;
+    font-weight: normal;
+}
+
+section{
+    padding: 10px 40px;
+}
+
+article{
+    padding: 10px 20px;
+    background-color:#F4F3EF ;
+    margin-bottom:16px;
+
+}
+
+h3{
+    font-weight:normal;
+    color: chocolate;
+}
+
+a{
+    text-decoration: none;
+    color:teal;
+    font-size: 1.1em;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
