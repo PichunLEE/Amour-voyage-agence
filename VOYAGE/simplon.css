@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ nav{
+    height: 120px;;
+ }
+
+li a{
+    color: white;
+    font-size: 25px;
+}
+
+.fond{
+    background:url("plage.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.container h1{
+   font-size: 5em;
+   color: white;
+}
+
+.container h2{
+    font-size: 4em;
+    color: #FFB400;
+ }
+
+ .container p{
+    font-size: 1.5em;
+    color: white;
+ }
+
+ .container-fluid{
+    height: 200px;
+    text-align: center;
+}
+
+.img-fluid{
+    height: 200px;
+}
+
+section h1{
+    margin-left: 10px;
+}
+
+.nouveaute{
+    overflow: auto;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.nouveau-left{
+    float: left;
+    width: 50%;
+}
+
+.nouveau-right{
+    float: left;
+    width: 50%;
+    border-color: #222;
+}
+
+
+.container-middle{
+    max-width: 1500px;
+    margin: auto;
+    display: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

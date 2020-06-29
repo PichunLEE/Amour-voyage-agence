@@ -1,0 +1,198 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+    color: #222;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+}
+
+/*menu*/
+header{
+    background-color: black;
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.header nav h1{
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.header nav h1 a{
+    color: white;
+}
+
+
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+
+.header nav li{
+    float: left;
+}
+
+.header nav ul li a{
+    color: white;
+    padding: 20px;
+    display:block ;
+}
+
+.header nav ul li a:hover, .active{
+    background-color:#444444;
+}
+
+.header nav ul li a.active{
+    background-color:#444444;
+}
+
+
+/*contenu cafe*/
+.CAFE{
+    background-image: url(coffee2.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+}
+
+.cafe-content{
+    max-width: 600px;
+    color: white;
+    padding-top: 150px;
+    margin: auto;
+}
+
+.cafe-content h1{
+    font-size: 50px;
+}
+
+.cafe-content p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: #222;
+    color: white;
+}
+
+/*infos pratiques*/
+.nouveaute{
+    overflow: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.nouveau{
+    float: left;
+    width: 50%;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: auto;
+}
+
+.service{
+    background-image: url(coffee3.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
