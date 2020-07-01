@@ -50,12 +50,12 @@ header{
     display:block ;
 }
 
-.header nav ul li a:hover, .active{
-    background-color:#444444;
+.header nav ul li a:hover{
+    background-color:#444;
 }
 
 .header nav ul li a.active{
-    background-color:#444444;
+    background-color:#444;
 }
 
 

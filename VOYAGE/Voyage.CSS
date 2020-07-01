@@ -153,6 +153,7 @@
   .slider_container div img {
     width: 100%;
   }
+  
   @-webkit-keyframes round {
     4% {
       opacity: 1;
