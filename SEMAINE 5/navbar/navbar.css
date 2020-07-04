@@ -1,0 +1,40 @@
+
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing : border-box;
+    }
+
+
+li a{
+    color: white;
+}
+
+.fond{
+    background:url("chocolat.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.texte{
+    overflow: auto;
+    padding: 30px 0;
+    text-align: left;
+}
+
+.nouveau{
+    float: left;
+    width: 31%;
+    margin: auto
+}
+
+.btn{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: yellow;
+}

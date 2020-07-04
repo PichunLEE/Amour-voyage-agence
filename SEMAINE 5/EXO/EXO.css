@@ -1,0 +1,50 @@
+.container-fluid{
+   border: black solid;
+}
+
+
+.col-4{
+    background-color: pink;
+    border: solid red;
+    color: white;
+    padding: 20px;
+}
+
+.col-8{
+    background-color:blue;
+    border: solid red;
+    color: white;
+    padding: 20px;
+}
+
+.col-5{
+    background-color: darkgreen;
+    padding: 20px;
+}
+
+
+
+
+.col-6{
+    background-color: purple;
+    padding-top: 20px;
+}
+
+.col-2{
+    background-color: brown;
+    padding: 20px;
+}
+
+.col-3{
+    background-color: coral;
+    padding: 20px;
+}
+
+.row ,.col-4 ,.col-8, .col-6, .col-3, .col-5{
+    border: black 2px solid;
+    padding: 20px;
+}
+
+.row{
+    border: none;
+}

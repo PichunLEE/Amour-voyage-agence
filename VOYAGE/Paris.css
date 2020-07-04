@@ -1,0 +1,192 @@
+/* title */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+nav{
+    height: 110px;;
+ }
+
+ .left{
+     float: left;
+ }
+
+
+li a{
+    color: #FFB400;
+    font-size: 20px;
+}
+
+/* location */
+
+section h1{
+    margin-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-fluid{
+    height: 200px;
+    text-align: center;
+}
+
+.img-fluid{
+    height: 400px;
+}
+
+.col-4 h6{
+    padding-top: 25px;
+    
+}
+
+.carre-photo{
+   margin-top: 20px;
+   margin-bottom: 50px; 
+}
+
+.carre-title h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.carre-title a{
+   margin: 15px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 7mm;
+}
+
+
+/* Questions */
+.body{
+    background-color: #303030;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    color:white;
+}
+
+
+.left{
+    text-align: left;
+    width: 600px;
+    margin-left: 220px;
+    margin-right: 150px;
+}
+
+.body .left label{
+    margin-top: 10px;
+}
+
+
+
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: #FFB400;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0275d8;
+    color: white;
+}
+
+.message .btn{
+    font-size: 14px;
+font-weight: 700;
+padding: 10px 35px;
+border-radius: 30px;
+cursor: pointer;
+border: 0px;
+display: inline-block;
+background-color: #FFB400;
+color: white;
+}
+
+.message .btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #FFB400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

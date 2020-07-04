@@ -1,0 +1,44 @@
+
+ .fenête{
+     background-color:violet;
+     height: 50px;
+     width: 50px;
+     margin: 10px auto;
+ }
+ 
+ .porte{
+     background-color: darkcyan;
+     height: 100px;
+     width: 80px;
+     margin: auto;
+ }
+
+ .batiment{
+     border: 2px solid;
+     background-color: cornsilk;
+     margin-left: 10px;
+     margin-right: 10px;
+
+
+    }
+ .boder{
+     border: brown solid 4px;
+     border-bottom: white;
+     margin-left: 20px;
+     margin-right: 20px;
+     
+ }
+
+ .ground {
+    background-color: green;
+    height: 60px;
+}
+
+ 
+ 
+ 
+  
+  
+ 
+ 
+    

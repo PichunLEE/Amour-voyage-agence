@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ nav{
+  height: 110px;;
+}
+
+
+ a{
+     text-decoration: none;
+ }
+ 
+ /*menu*/
+
+ li a{
+    color: #FFB400;
+    font-size: 20px;
+}
+
+
+ 
+/*contenu France*/
+.CAFE{
+    background-image: url(france.jpg);
+    height: 750px;
+    background-size: cover;
+    text-align: center;
+}
+ 
+.cafe-content{
+    max-width: 600px;
+    color: white;
+    padding-top: 150px;
+    margin: auto;
+}
+ 
+.cafe-content h1{
+    font-size: 50px;
+}
+ 
+.cafe-content p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+ 
+.CAFE .cafe-content .btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    color: white;
+    background-color: #FFB400;
+
+}
+ 
+.CAFE .cafe-content .btn:hover{
+    background-color: #0275d8;
+    color: white;
+}
+ 
+/*infos pratiques*/
+.nouveaute{
+    overflow: auto;
+    padding: 80px 0 0 100px;
+    text-align: center;
+}
+ 
+.nouveau{
+    float: left;
+    width: 30%;
+}
+
+.photo{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+ 
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: auto;
+}
+ 
+
+ 
+.textes{
+    padding: 100px;
+}
+
+.footer{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: white;
+   text-align: center;
+   background-color: #FFB400;
+}
+ 
+ 
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
