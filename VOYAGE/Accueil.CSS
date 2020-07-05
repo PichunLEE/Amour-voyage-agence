@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* navbar */
  
 nav{
   height: 110px;;
@@ -13,7 +15,6 @@ a{
    text-decoration: none;
 }
  
- /*menu*/
  
 li a{
   color: #FFB400;
@@ -37,11 +38,29 @@ li a{
   color: white;
 }     
 
-.container{
-  max-width: 1000px;
-  margin: auto;
-  display: auto;
+/* promotion fixed */
+
+.carre{
+  width:100px; 
+  height:100px;
+  background-color: #FFB400;
+  border-radius: 5px 40px 5px;
+  text-align: center center;
+  margin-bottom: 50px ;
+  display: inline-block;
+  color: white;
+  padding-top: 20px;
 }
+
+
+#fixe {
+  position: fixed;
+  text-align: center center;
+  top: 150px;
+  left: 900px;
+}
+
+/* slider */
 
 .slider_container {
  margin: 30px auto;
@@ -176,11 +195,39 @@ li a{
  box-sizing: border-box;
 }
     
-.pourquoi{
+/* pourquoi */
+
+
+
+.container{
   background-color: #303030;
-    padding-bottom: 150px;
-    padding-top: 100px;
-    color:white;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  color:white;
+  text-align: center;
+}
+
+.container .row{
+  margin: 50px;
+  text-align: center;
+}
+
+.container .row h1{
+  font-size: 4em;
+}
+
+.container .row .col img{
+  margin-bottom: 20px;
+}
+
+
+
+
+/* MOODBOARD */
+.promotion .container{
+  background-color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 
