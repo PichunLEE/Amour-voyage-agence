@@ -6,11 +6,6 @@
 
 /* navbar */
  
-nav{
-  height: 110px;;
-}
-
-
 a{
    text-decoration: none;
 }
@@ -18,7 +13,7 @@ a{
  
 li a{
   color: #FFB400;
-  font-size: 20px;
+  font-size: 18px;
 }
  
 .nav .btn{
