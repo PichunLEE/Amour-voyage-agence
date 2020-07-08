@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+ 
+nav{
+  height: 110px;;
+}
+
+
+a{
+   text-decoration: none;
+}
+ 
+ 
+li a{
+  color: #FFB400;
+  font-size: 20px;
+}
+ 
+.nav .btn{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0px;
+  display: inline-block;
+  background-color: #FFB400;
+  color: white;
+}
+
+.nav .btn:hover{
+  background-color: #0275d8;
+  color: white;
+}     
+
+
+
+/* top photo */
+.nouveaute{
+    overflow: auto;
+    text-align: left;
+    background-color:#303030 ;
+}
+
+.photo{
+   max-width: 2000px;
+   margin: auto;
+   display: auto;
+}
+
+.nouveau-right{
+    float: left;
+    width: 60%;
+}
+
+.nouveau-left{
+    float: left;
+    width: 40%;
+    color: white;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.nouveau-right li{
+    text-indent: 15px;
+}
+
+
+/* Suivez nous */
+.Suive{
+    overflow: auto;
+    padding: 20px 0 0 80px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.réseaux{
+    max-width: 500px;
+    margin: auto;
+    display: auto;
+    background-color: white;
+}
+ 
+.nouveau{
+    float: inline-start;
+    width: 30%;
+}
+
+
+
+/* Qui sommes nous */
+
+.background{
+    background-color: #303030;
+    background-size: cover;
+}
+
+.container{
+    background-size: cover;
+    color:white;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    overflow: auto;
+
+}
+  
+.container .row{
+    margin: 50px;
+    text-align: center;
+}
+  
+.container .row h1{
+    font-size: 4em;
+}
+  
+.container .row .col img{
+    margin-bottom: 20px;
+}
+  
+
+
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #FFB400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 

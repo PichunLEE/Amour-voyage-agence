@@ -21,9 +21,9 @@
 }
 
 .nav .btn{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
-    padding: 10px 25px;
+    padding: 8px 12px;
     border-radius: 30px;
     cursor: pointer;
     border: 0px;
@@ -103,6 +103,11 @@
 .photo{
     padding-top: 100px;
     padding-bottom: 20px;
+}
+
+.nouveaute .container .couveau a{
+    margin-left: 50px;
+    margin-right: 50px;
 }
  
 
