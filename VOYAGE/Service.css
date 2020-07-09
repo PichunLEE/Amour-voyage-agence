@@ -70,7 +70,7 @@ li a{
 
 
 /* Suivez nous */
-.Suive{
+.Suive-fluid{
     overflow: auto;
     padding: 20px 0 0 80px;
     text-align: center;
@@ -94,7 +94,7 @@ li a{
 
 /* Qui sommes nous */
 
-.background{
+.background-fluid{
     background-color: #303030;
     background-size: cover;
 }

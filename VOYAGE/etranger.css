@@ -52,7 +52,7 @@ section h1{
 .container-fluid{
     height: 200px;
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 450px;
 }
 
 .img-fluid{
@@ -65,22 +65,21 @@ section h1{
 }
 
 /* middle photo */
-.nouveaute{
+.nouveaute-fluid{
     background-color: #303030;
     overflow: auto;
     text-align: left;
 }
 
-.photo{
-   display: auto;
-}
 
-.nouveau-left{
+
+.nouveau-left-fluid{
     float: left;
     width: 50%;
+    
 }
 
-.nouveau-right{
+.nouveau-right-fluid{
     float: left;
     width: 50%;
     color: white;

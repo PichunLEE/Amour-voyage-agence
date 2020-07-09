@@ -37,48 +37,31 @@ li a{
 
 
 /* Questions */
-.body{
+.container-fluid{
     background-color: #303030;
-    padding-bottom: 150px;
     padding-top: 100px;
     color:white;
+    height: 880px;
 }
 
 
-.left{
-    text-align: left;
-    width: 600px;
-    margin-left: 220px;
-    margin-right: 150px;
+.row-fluid{
+    text-align: center;
 }
 
-.body .left label{
+.container-fluid .row-fluid .label-fluid{
     margin-top: 10px;
 }
 
-
-
-.btn{
-    font-size: 12px;
-    font-weight: 700;
-    padding: 8px 12px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0px;
-    display: inline-block;
-    background-color: #FFB400;
-    color: white;
+.row-fluid .message{
+    text-align: left;
 }
 
-.btn:hover{
-    background-color: #0275d8;
-    color: white;
-}
 
-.message .btn{
-    font-size: 14px;
+.btn-fluid{
+font-size: 12px;
 font-weight: 700;
-padding: 10px 35px;
+padding: 10px 25px;
 border-radius: 30px;
 cursor: pointer;
 border: 0px;
@@ -87,9 +70,10 @@ background-color: #FFB400;
 color: white;
 }
 
-.message .btn:hover{
+.btn-fluid:hover{
     background-color: red;
     color: white;
+    text-decoration: none;
 }
 
 .footer{
