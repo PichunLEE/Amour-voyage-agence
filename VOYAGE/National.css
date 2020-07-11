@@ -36,47 +36,32 @@
 
  
 /*contenu France*/
-.CAFE{
-    background-image: url(france.jpg);
-    height: 750px;
+.fond{
+    background-image: url("france.jpg");
     background-size: cover;
     text-align: center;
+    height: 750px;
 }
  
-.cafe-content{
+.container{
     max-width: 600px;
     color: white;
     padding-top: 150px;
     margin: auto;
 }
  
-.cafe-content h1{
+.container h1{
     font-size: 50px;
 }
  
-.cafe-content p{
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    line-height: 1.9em;
+.container p{
+    font-size: 1em;
+    color: white;
 }
  
-.CAFE .cafe-content .btn{
-    font-size: 14px;
-    font-weight: 700;
-    padding: 15px 25px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0px;
-    display: inline-block;
-    color: white;
-    background-color: #FFB400;
 
-}
- 
-.CAFE .cafe-content .btn:hover{
-    background-color: #0275d8;
-    color: white;
-}
+
+
  
  
 /* hylink external*/
@@ -88,7 +73,7 @@ section h1{
 .container-fluid{
     height: 200px;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
     margin-top: 100px;
 }
 
