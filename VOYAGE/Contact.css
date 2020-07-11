@@ -59,9 +59,7 @@ li a{
     background-color: #303030;
     padding-top: 100px;
     color:white;
-    height: 880px;
-    padding-bottom: 200px;
-    margin-bottom: 200px;
+    height: 1100px;
 }
 
 
@@ -88,7 +86,6 @@ border: 0px;
 display: inline-block;
 background-color: #FFB400;
 color: white;
-margin-bottom: 100px;
 }
 
 .btn-fluid:hover{
