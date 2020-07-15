@@ -39,7 +39,7 @@ li a{
 .nouveaute{
     overflow: auto;
     text-align: left;
-    background-color:#303030 ;
+    background-color:#0275d8 ;
 }
 
 .photo{
@@ -95,7 +95,7 @@ li a{
 /* Qui sommes nous */
 
 .background-fluid{
-    background-color: #303030;
+    background-color: #0275d8;
     background-size: cover;
 }
 

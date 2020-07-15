@@ -15,6 +15,23 @@ li a{
     font-size: 18px;
 }
 
+.btn{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: #FFB400;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0275d8;
+    color: white;
+}
+
 /* location */
 
 .carre-title h1{
@@ -38,7 +55,7 @@ li a{
 
 /* Questions */
 .container-fluid{
-    background-color: #303030;
+    background-color: #0275d8;
     padding-top: 100px;
     color:white;
     height: 1100px;
