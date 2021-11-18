@@ -1,0 +1,307 @@
+/* title */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .left{
+     float: left;
+ }
+
+
+li a{
+    color: #FFB400;
+    font-size: 18px;
+}
+
+.btn{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: #FFB400;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0275d8;
+    color: white;
+}
+
+/* location */
+
+.carre-title h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.carre-title a{
+   margin: 15px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 7mm;
+}
+
+.carre-photo img{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Questions */
+.container-fluid{
+    background-color: #0275d8;
+    padding-top: 100px;
+    color:white;
+    height: 1100px;
+}
+
+
+.row-fluid{
+    text-align: center;
+}
+
+.container-fluid .row-fluid .label-fluid{
+    margin-top: 10px;
+}
+
+.row-fluid .message{
+    text-align: left;
+}
+
+
+.btn-fluid{
+font-size: 12px;
+font-weight: 700;
+padding: 10px 25px;
+border-radius: 30px;
+cursor: pointer;
+border: 0px;
+display: inline-block;
+background-color: #FFB400;
+color: white;
+}
+
+.btn-fluid:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #FFB400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
