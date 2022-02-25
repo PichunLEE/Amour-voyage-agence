@@ -19,6 +19,7 @@ li a{
 /* promotion fixed */
 
 .promotion{
+    position: absolute;
     width:100px; 
     height:100px;
     background-color: #FFB400;
@@ -41,7 +42,7 @@ li a{
 /* <!-- background photo --> */
 
 .fond{
-    background:url("plage.jpg") no-repeat center center;
+    background:url("/img/plage.jpg") no-repeat center center;
     background-size: cover;
     text-align: center;
 }
