@@ -50,24 +50,29 @@ li a{
 
 .nouveau-right{
     float: left;
-    width: 60%;
+    width: 50%;
+}
+
+.nouveau-right img-fluid{
+    max-width: 100%;
+
 }
 
 .nouveau-left{
     float: left;
-    width: 40%;
+    width: 50%;
     color: white;
     padding-top: 35px;
     padding-right: 35px;
     padding-left: 35px;
     padding-bottom: 10px;
-    overflow: auto;
 }
 
+/*
 .nouveau-right li{
     text-indent: 15px;
 }
-
+*/
 
 /* Suivez nous */
 .Suive-fluid{
@@ -78,10 +83,14 @@ li a{
     margin-top: 50px;
 }
 
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .réseaux{
     max-width: 500px;
     margin: auto;
-    display: auto;
     background-color: white;
 }
  
@@ -89,6 +98,38 @@ li a{
     float: inline-start;
     width: 30%;
 }
+
+/*TOP photo ***********************************/
+
+.nouveaute-fluid{
+    background-color: #0275d8;
+    overflow: auto;
+    text-align: left;
+}
+
+
+
+.nouveau-left-fluid{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-top: 35px;
+    padding-right: 25px;
+    padding-left: 35px;
+    padding-bottom: 7.5px;
+    
+}
+
+.nouveau-right-fluid{
+    float: left;
+    width: 50%;
+   
+}
+
+.nouveau-left-fluid li{
+    text-indent: 15px;
+}
+
 
 
 

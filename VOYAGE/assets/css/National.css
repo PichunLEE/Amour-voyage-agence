@@ -66,8 +66,9 @@
  
  
 /* hylink external*/
-section h1{
-    margin-left: 10px;
+section h2{
+    font-size: 1.3rem;
+    text-align: center;
     padding-top: 50px;
 }
 
@@ -102,7 +103,8 @@ section h1{
    text-align: center;
    background-color: #FFB400;
 }
- 
+
+
  
 
      

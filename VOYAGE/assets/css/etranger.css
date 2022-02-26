@@ -18,8 +18,7 @@ li a{
 
 /* promotion fixed */
 
-.promotion{
-    position: absolute;
+.promotion{    
     width:100px; 
     height:100px;
     background-color: #FFB400;
@@ -34,7 +33,7 @@ li a{
   
   #fixe {
     position: fixed;
-    text-align: center center;
+   /* text-align: center center;*/
     top: 150px;
     left: 900px;
   }
@@ -115,6 +114,8 @@ section h1{
 .nouveau-right li{
     text-indent: 15px;
 }
+
+
 
 
 /* commentaire  */
