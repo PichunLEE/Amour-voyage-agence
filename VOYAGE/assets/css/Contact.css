@@ -98,6 +98,8 @@ border: 0px;
 display: inline-block;
 background-color: #FFB400;
 color: white;
+margin-left: 40px;
+text-decoration: none;
 }
 
 .btn-fluid:hover{
