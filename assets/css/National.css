@@ -66,22 +66,20 @@
  
  
 /* hylink external*/
-section h2{
-    font-size: 1.3rem;
-    text-align: center;
-    padding-top: 50px;
+.hyperlinks{
+    padding: 0 80px;
 }
 
 .container-fluid{
-    height: 200px;
     text-align: center;
-    margin-bottom: 250px;
     margin-top: 100px;
 }
 
 .img-fluid{
     height: 200px;
     width: 180px;
+    border-radius: 5%;
+    margin: 0 5px;
 }
 
 .col-4 h6{
@@ -104,6 +102,16 @@ section h2{
    background-color: #FFB400;
 }
 
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){    
+    .container-fluid .row{
+        width: 100%;
+        display: block;
+    }
+    .col-4{
+        max-width: 100%;
+    }
+}
 
  
 
