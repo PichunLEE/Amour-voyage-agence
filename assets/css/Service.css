@@ -2,15 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* navbar */
-
-a{
-   text-decoration: none;
-}
- 
- 
 li a{
   color: #FFB400;
   font-size: 18px;
@@ -34,50 +29,47 @@ li a{
 }     
 
 
+/*TOP photo ***********************************/
 
-/* top photo */
-.nouveaute{
+.nouveaute-fluid{
+    background-color: #0275d8;
     overflow: auto;
     text-align: left;
-    background-color:#0275d8 ;
 }
 
-.photo{
-   max-width: 2000px;
-   margin: auto;
-   display: auto;
+.nouveaute-fluid .row{
+    margin: 0;
+    padding: 0;
 }
 
-.nouveau-right{
-    float: left;
-    width: 50%;
-}
-
-.nouveau-right img-fluid{
-    max-width: 100%;
-
-}
-
-.nouveau-left{
+.nouveau-left-fluid{
     float: left;
     width: 50%;
     color: white;
-    padding-top: 35px;
-    padding-right: 35px;
-    padding-left: 35px;
-    padding-bottom: 10px;
+    padding: 80px 0px 0px 150px;  
 }
 
-/*
-.nouveau-right li{
+.nouveau-right-fluid{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 200px;
+}
+
+.nouveau-left-fluid li{
     text-indent: 15px;
 }
-*/
 
-/* Suivez nous */
+
+
+
+
+
+
+/* Suivez nous *************************/
 .Suive-fluid{
     overflow: auto;
-    padding: 20px 0 0 80px;
+    padding: 20px 0px;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -99,38 +91,6 @@ li a{
     width: 30%;
 }
 
-/*TOP photo ***********************************/
-
-.nouveaute-fluid{
-    background-color: #0275d8;
-    overflow: auto;
-    text-align: left;
-}
-
-
-
-.nouveau-left-fluid{
-    float: left;
-    width: 50%;
-    color: white;
-    padding-top: 35px;
-    padding-right: 25px;
-    padding-left: 35px;
-    padding-bottom: 7.5px;
-    
-}
-
-.nouveau-right-fluid{
-    float: left;
-    width: 50%;
-   
-}
-
-.nouveau-left-fluid li{
-    text-indent: 15px;
-}
-
-
 
 
 /* Qui sommes nous */
@@ -144,7 +104,6 @@ li a{
     background-size: cover;
     color:white;
     text-align: center;
-    margin-bottom: 50px;
     padding-bottom: 10px;
     overflow: auto;
 
@@ -173,6 +132,26 @@ li a{
     text-align: center;
     background-color: #FFB400;
 }
+
+
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){
+
+    .nouveau-left-fluid{
+        width: 100%;
+        padding: 0;          
+        padding: 50px 50px 0px 50px;   
+    }
+    
+    .nouveau-right-fluid{
+        width: 100%;  
+        padding: 0px;
+    }
+}
+
+
+
+
 
 
 
