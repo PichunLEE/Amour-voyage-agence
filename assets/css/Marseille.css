@@ -35,6 +35,26 @@ li a{
 
 /* location */
 
+.locationD{
+    padding: 100px 50px;
+}
+
+.columnL{display: inline-block;
+    border: solid 2px transparent;
+}
+
+.columnR{
+    background-image: url(/img/nice.jpg);
+    background-size: cover;
+    display: inline-block;
+    border: solid 2px transparent;
+    height: 600px;
+    width: 400px;
+    margin-left: 0px;
+}
+
+
+
 .carre-title h1{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -59,7 +79,7 @@ li a{
     background-color: #0275d8;
     padding-top: 100px;
     color:white;
-    height: 1100px;
+    height: 800px;
 }
 
 .container-fluid label{
@@ -98,6 +118,8 @@ border: 0px;
 display: inline-block;
 background-color: #FFB400;
 color: white;
+margin-left: 40px;
+text-decoration: none;
 }
 
 .btn-fluid:hover{
@@ -114,69 +136,21 @@ color: white;
     background-color: #FFB400;
 }
 
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){
+    .location{
+        width: 100%;  
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    iframe{
+        width: 100%;  
+    }
+    
+    .columnR{
+        width: 100%;  
+        padding: 0px;
+    }
+}
 
 
 
