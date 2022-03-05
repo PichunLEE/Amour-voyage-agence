@@ -16,27 +16,7 @@ li a{
     font-size: 18px;
 }
 
-/* promotion fixed */
 
-.promotion{    
-    width:100px; 
-    height:100px;
-    background-color: #FFB400;
-    border-radius: 5px 40px 5px;
-    text-align: center center;
-    margin-bottom: 50px ;
-    display: inline-block;
-    color: white;
-    padding-top: 20px;
-  }
-  
-  
-  #fixe {
-    position: fixed;
-   /* text-align: center center;*/
-    top: 150px;
-    left: 900px;
-  }
 
 /* <!-- background photo --> */
 
@@ -72,11 +52,11 @@ section h1{
 }
 
 .container-fluid{
-    height: 200px;
     text-align: center;
-    margin-bottom: 480px;
+    margin-bottom: 100px;
 }
 
+/*Nos Meilleures Offres photos*/
 .img-fluid{
     height: 300px;
 }
@@ -93,11 +73,23 @@ section h1{
     text-align: left;
 }
 
+.nouveaute-fluid .row{
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 0;
+    padding-right: 100px;
+}
 
-
-.nouveau-left-fluid{
-    float: left;
+.fluidPhoto{
     width: 50%;
+}
+
+
+
+
+
+.nouveau-left-fluid .img-fluid{
+ max-width: 100%;
     
 }
 
@@ -105,10 +97,8 @@ section h1{
     float: left;
     width: 50%;
     color: white;
-    padding-top: 35px;
-    padding-right: 35px;
-    padding-left: 35px;
-    padding-bottom: 7.5px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .nouveau-right li{
@@ -125,24 +115,28 @@ section h1{
     margin: 25px;
     padding: 80px;
     color: white;
-}
+    border-radius: 0 50px 0 50px}
 
-.carre1{
+.carreR{
    float: right;
    margin-left: 50px;
    margin-bottom: 20px;
-   margin-top: -20px;
+    margin-top: -50px;
    text-align: left;
    color: white;
 }
 
-.carre2{
+.carreL{
     float: left;
     margin-right: 50px;
     margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: -50px;
     text-align: left;
     color: white;
+ }
+
+ .carreR .carreL p{
+     padding-bottom: 20px;
  }
 
 
@@ -177,6 +171,31 @@ section h1{
     color: white;
     text-align: center;
     background-color: #FFB400;
+}
+
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){
+    .nouveaute-fluid .row{
+        padding-right: 0%;
+    }
+
+    .fluidPhoto{
+        width: 100%;
+    }
+
+    .nouveau-right-fluid{
+        width: 100%;
+       
+    }    
+    .container-fluid .row{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin: 0%;
+    }  
+    .col-4{
+        max-width: 100%;
+    }
 }
 
 
