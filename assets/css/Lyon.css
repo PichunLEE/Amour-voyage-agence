@@ -2,7 +2,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;     
+    text-decoration: none;
  }
 
 
@@ -88,12 +89,9 @@ li a{
 }
 
 .container-fluid input{
-    width: 280px;
+    width: 380px;
     text-align: left;
  }
- 
-
-
 
 .row-fluid{
     text-align: center;
@@ -107,25 +105,28 @@ li a{
    width: 380px;
 }
 
-
-.btn-fluid{
-font-size: 12px;
-font-weight: 700;
-padding: 10px 25px;
+.btn-fluid{ 
+font-size: 10px;
+font-weight: 300;
 border-radius: 30px;
-cursor: pointer;
-border: 0px;
 display: inline-block;
-background-color: #FFB400;
-color: white;
-margin-left: 40px;
-text-decoration: none;
+justify-content: center;
 }
 
-.btn-fluid:hover{
+.btn-fluid input{
+font-size: 12px;
+font-weight: 500;
+padding: 10px 0px;
+border-radius: 30px;
+border: 0px;
+background-color: #FFB400;
+color: white;
+text-align: center;
+width: 100px;
+}
+
+.btn-fluid input:hover{
     background-color: red;
-    color: white;
-    text-decoration: none;
 }
 
 .footer{
@@ -151,46 +152,6 @@ text-decoration: none;
         padding: 0px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="/assets/css/Toulouse.css">
     <link rel="icon" type="image/x-icon" href="img/logo.jpg">
     <title>Amour voyage agence</title>
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_D9cQWfEp7geEVbQ0HuOry");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+          event.preventDefault();
+          // generate a five digit number for the contact_number variable
+          this.contact_number.value = Math.random() * 100000 | 0;
+          // these IDs from the previous steps
+          emailjs.sendForm('service_u4wm3hr', 'template_1k66slq', this)
+            .then(function () {
+              console.log('SUCCESS!');
+            }, function (error) {
+              console.log('FAILED...', error);
+            });
+        });
+      }
+    </script>
 </head>
 <body >
   <!-- Image and text -->
@@ -72,38 +95,45 @@
 
   <!-- Questions -->
   <section>
+
+    <form id="contact-form" class="form-contact">
+    </form>
+
     <div class="container-fluid" style="text-align: center;">
       <div class="row-fluid">
         <h1>Des questions ? Envie d’avoir des infos ? <br><span style="color: #FFB400;">Contactez nous </span> </h1>
         <br>
-        <form class="contact-from" action="contactform.php" method="post">
-          <label for="nom">
-            <h4>Nom:</h4>
-          </label>
-          <input class="lable-fluid" type="text" name="Nom"><BR>
+        <form id="contact-form" class="form-contact">
+          <div class="form-group">
+            <input type="hidden" name="contact_number">
 
-          <label for="nom">
-            <h4>Prénom:</h4>
-          </label>
-          <input class="lable-fluid" type="text" name="Prenom"><BR>
+            <label for="nom"></label>
+            <input id="nom" type="text" name="nom" placeholder="Nom">
+          </div>
 
-          <label for="nom">
-            <h4>Email:</h4>
-          </label>
-          <input class="lable-fluid" type="text" name="email"><BR>
+          <div class="form-group">
+            <label for="prenom"></label>
+            <input id="prenom" type="text" name="prenom" placeholder="Prénom">
+          </div>
 
-          <label class="message" for="Votre message">
-            <h4>Votre message:</h4>
-          </label><br>
-          <textarea name="message" id="votre message" cols="50" rows="8"></textarea> <br><br>
+          <div class="form-group">
+            <label for="email"></label>
+            <input id="email" type="email" name="email" placeholder="Votre email address">
+          </div>
 
-          <button class="btn-fluid" type="submit" name="submit">
-            <h4>Envoyer</h4>
+          <div class="form-group">
+            <label id="message" for="message"></label>
+            <textarea name="message" rows="8" cols="50" placeholder="Votre message"></textarea>
+          </div>
+
+          <button class="btn-fluid" type="submit" name="Submit">
+            <input id="submit" class="submit" type="submit" name="btnSubmit" value="Envoyer">
           </button>
 
         </form>
       </div>
     </div>
+
   </section>
 
 
