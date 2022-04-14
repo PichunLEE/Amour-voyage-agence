@@ -56,6 +56,38 @@
       <h3> Vous rêvez de...</h3>
       <p>Partez l'esprit tranquille pour une escapade en ville, à la montagne où à la mer
     </div>
+
+    <form id="form">
+      <div class="field">
+          <select id="pays" >
+              <option value="hawai">Hawaï</option>
+              <option value="maldives">Les Maldives</option>
+              <option value="bahamas">Bahamas</option>
+              <option value="borabora">Bora-Bora</option>
+              <option value="tahiti">Tahiti</option>
+          </select>
+      </div>
+      
+      <!-- Date de départ -->
+      <div class="field">
+          <input type="date" id="start" 
+          value="2021-06-02"
+          min="2021-06-01">
+      </div>
+      <!-- Date de retour -->
+      <div class="field">
+          <input type="date" id="end" 
+          value="2021-06-02"
+          min="2021-06-01">
+      </div>
+      <!-- Bouton -->
+      <button type="submit"><i class="fas fa-plane"></i></button>
+
+    </form>
+
+    <!-- Ici les résultats de la sélection -->
+    <div class="liste-resultats">
+    </div>
   </div>
   <!-- Nos derniers deals -->
   <section>
@@ -203,6 +235,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="assets/js/scroll.js"></script>
+  <script src="assets/js/booking.js"></script>
 
 </body>
 

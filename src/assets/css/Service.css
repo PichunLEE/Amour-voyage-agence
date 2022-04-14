@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* navbar */
+li a{
+  color: #FFB400;
+  font-size: 18px;
+}
+ 
+.nav .btn{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0px;
+  display: inline-block;
+  background-color: #FFB400;
+  color: white;
+}
+
+.nav .btn:hover{
+  background-color: #0275d8;
+  color: white;
+}     
+
+
+/*TOP photo ***********************************/
+
+.nouveaute-fluid{
+    background-color: #0275d8;
+    overflow: auto;
+    text-align: left;
+}
+
+.nouveaute-fluid .row{
+    margin: 0;
+    padding: 0;
+}
+
+.nouveau-left-fluid{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 80px 0px 0px 150px;  
+}
+
+.nouveau-right-fluid{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 200px;
+}
+
+.nouveau-left-fluid li{
+    text-indent: 15px;
+}
+
+
+
+
+
+
+
+/* Suivez nous *************************/
+.Suive-fluid{
+    overflow: auto;
+    padding: 20px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.réseaux{
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+}
+ 
+.nouveau{
+    float: inline-start;
+    width: 30%;
+}
+
+
+
+/* Qui sommes nous */
+
+.background-fluid{
+    background-color: #0275d8;
+    background-size: cover;
+}
+
+.container{
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+    overflow: auto;
+
+}
+  
+.container .row{
+    margin: 50px;
+    text-align: center;
+}
+  
+.container .row h1{
+    font-size: 4em;
+}
+  
+.container .row .col img{
+    margin-bottom: 20px;
+}
+  
+
+
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #FFB400;
+}
+
+
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){
+
+    .nouveau-left-fluid{
+        width: 100%;
+        padding: 0;          
+        padding: 50px 50px 0px 50px;   
+    }
+    
+    .nouveau-right-fluid{
+        width: 100%;  
+        padding: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 

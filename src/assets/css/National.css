@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+ 
+
+ a{
+     text-decoration: none;
+ }
+ 
+ /*menu*/
+
+ li a{
+    color: #FFB400;
+    font-size: 18px;
+}
+
+.nav .btn{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: #FFB400;
+    color: white;
+  }
+  
+  .nav .btn:hover{
+    background-color: #0275d8;
+    color: white;
+  }     
+
+
+ 
+/*contenu France*/
+.fond{
+    background-image: url("/img/france.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 750px;
+}
+ 
+.container{
+    max-width: 1400px;
+    color: white;
+    padding-top: 150px;
+    margin: auto;
+}
+ 
+.container h1{
+    font-size: 50px;
+}
+ 
+.container p{
+    font-size: 1em;
+    color: white;
+}
+ 
+
+
+
+ 
+ 
+/* hylink external*/
+.hyperlinks{
+    padding: 0 80px;
+}
+
+.container-fluid{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-fluid{
+    height: 200px;
+    width: 180px;
+    border-radius: 5%;
+    margin: 0 5px;
+}
+
+.col-4 h6{
+    padding-top: 25px;
+    
+}
+
+ 
+
+ 
+.textes{
+    padding: 100px;
+}
+
+.footer{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: white;
+   text-align: center;
+   background-color: #FFB400;
+}
+
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){    
+    .container-fluid .row{
+        width: 100%;
+        display: block;
+    }
+    .col-4{
+        max-width: 100%;
+    }
+}
+
+ 
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

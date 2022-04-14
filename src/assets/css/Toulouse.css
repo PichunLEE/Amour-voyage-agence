@@ -1,0 +1,287 @@
+/* title */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+    text-decoration: none;
+ }
+
+
+ .left{
+     float: left;
+ }
+
+
+li a{
+    color: #FFB400;
+    font-size: 18px;
+}
+
+.btn{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    background-color: #FFB400;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0275d8;
+    color: white;
+}
+
+/* location */
+
+.locationD{
+    padding: 100px 50px;
+}
+
+.columnL{display: inline-block;
+    border: solid 2px transparent;
+}
+
+.columnR{
+    background-image: url(/img/ToulousePhoto.jpg);
+    background-size: cover;
+    display: inline-block;
+    border: solid 2px transparent;
+    height: 600px;
+    width: 400px;
+    margin-left: 0px;
+}
+
+
+
+.carre-title h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.carre-title a{
+   margin: 15px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 7mm;
+}
+
+.carre-photo img{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Questions */
+.container-fluid{
+    background-color: #0275d8;
+    padding-top: 100px;
+    color:white;
+    height: 800px;
+}
+
+.container-fluid label{
+   width: 100px;
+   text-align: left;
+}
+
+.container-fluid input{
+    width: 380px;
+    text-align: left;
+ }
+
+.row-fluid{
+    text-align: center;
+}
+
+.container-fluid .row-fluid .label-fluid{
+    margin-top: 10px;
+}
+
+.row-fluid .message{
+   width: 380px;
+}
+
+.btn-fluid{ 
+font-size: 10px;
+font-weight: 300;
+border-radius: 30px;
+display: inline-block;
+justify-content: center;
+}
+
+.btn-fluid input{
+font-size: 12px;
+font-weight: 500;
+padding: 10px 0px;
+border-radius: 30px;
+border: 0px;
+background-color: #FFB400;
+color: white;
+text-align: center;
+width: 100px;
+}
+
+.btn-fluid input:hover{
+    background-color: red;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #FFB400;
+}
+
+/*Media queries FOR MOBILE*/
+@media screen and (max-width : 450px){
+    .location{
+        width: 100%;  
+    }
+
+    iframe{
+        width: 100%;  
+    }
+    
+    .columnR{
+        width: 100%;  
+        padding: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
