@@ -69,14 +69,12 @@ section h1{
 /* middle photo */
 .nouveaute-fluid{
     background-color: #0275d8;
-    overflow: auto;
     text-align: left;
 }
 
 .nouveaute-fluid .row{
     display: flex;
     flex-wrap: wrap;    
-    margin: 0;
     padding-right: 100px;
 }
 
@@ -174,7 +172,7 @@ section h1{
 }
 
 /*Media queries FOR MOBILE*/
-@media screen and (max-width : 450px){
+@media screen and (max-width : 600px){
     .nouveaute-fluid .row{
         padding-right: 0%;
     }
@@ -185,6 +183,7 @@ section h1{
 
     .nouveau-right-fluid{
         width: 100%;
+        padding-right: 30px;
        
     }    
     .container-fluid .row{
@@ -299,7 +298,31 @@ button{
 }
 
 
-  
+@media screen and (max-width : 992px) and (min-width : 600px){  
+
+        .nouveaute-fluid .row{
+            padding-right: 0%;
+        }
+    
+        .fluidPhoto{
+            width: 100%;
+        }
+    
+        .nouveau-right-fluid{
+            width: 100%;
+            padding-right: 30px;
+           
+        }    
+        .container-fluid .row{
+            width: 100%;
+            display: block;
+            justify-content: center;
+            margin: 0%;
+        }  
+        .col-4{
+            max-width: 100%;
+        }
+} 
   
   
   

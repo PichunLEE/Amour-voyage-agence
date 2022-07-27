@@ -33,12 +33,10 @@ li a{
 
 .nouveaute-fluid{
     background-color: #0275d8;
-    overflow: auto;
     text-align: left;
 }
 
 .nouveaute-fluid .row{
-    margin: 0;
     padding: 0;
 }
 
@@ -53,7 +51,7 @@ li a{
     float: left;
     width: 50%;
     color: white;
-    padding-left: 200px;
+    padding-left: 200px; 
 }
 
 .nouveau-left-fluid li{
@@ -135,7 +133,22 @@ li a{
 
 
 /*Media queries FOR MOBILE*/
-@media screen and (max-width : 450px){
+
+@media screen and (max-width : 992px) and (min-width : 600px){    
+
+    .nouveau-left-fluid{
+        width: 100%;
+        padding: 0;          
+        padding: 50px 50px 0px 50px;   
+    }
+    
+    .nouveau-right-fluid{
+        width: 100%;  
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width : 600px){
 
     .nouveau-left-fluid{
         width: 100%;

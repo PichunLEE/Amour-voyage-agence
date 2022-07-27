@@ -49,6 +49,7 @@
     color: white;
     padding-top: 150px;
     margin: auto;
+    text-align: center;
 }
  
 .container h1{
@@ -73,6 +74,8 @@
 .container-fluid{
     text-align: center;
     margin-top: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-fluid{
@@ -80,6 +83,8 @@
     width: 180px;
     border-radius: 5%;
     margin: 0 5px;
+
+
 }
 
 .col-4 h6{
@@ -102,17 +107,39 @@
    background-color: #FFB400;
 }
 
+
+
 /*Media queries FOR MOBILE*/
-@media screen and (max-width : 450px){    
+
+@media screen and (min-width : 992px) and (max-width : 600px){    
     .container-fluid .row{
         width: 100%;
         display: block;
     }
+
+    .row h2{
+        font-size: 0.1rem;
+    }
+
     .col-4{
         max-width: 100%;
     }
 }
 
+@media screen and (max-width : 600px){    
+    .container-fluid .row{
+        width: 100%;
+        display: block;
+    }
+
+    .row h2{
+        font-size: 2rem;
+    }
+
+    .col-4{
+        max-width: 100%;
+    }
+}
  
 
      

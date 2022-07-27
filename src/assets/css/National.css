@@ -103,11 +103,16 @@
 }
 
 /*Media queries FOR MOBILE*/
-@media screen and (max-width : 450px){    
+@media screen and (max-width : 600px){    
     .container-fluid .row{
         width: 100%;
         display: block;
     }
+
+    .row h2{
+        font-size: 0rem;
+    }
+
     .col-4{
         max-width: 100%;
     }

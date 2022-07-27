@@ -78,15 +78,16 @@ li a{
 
 .carousel-inner {
   position: relative;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .carousel-item {
   position: relative;
   display: none;
   float: left;
-  height: 800px;
+  height: 100%;
   width: 100%;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
@@ -95,6 +96,8 @@ li a{
   transition: transform .6s ease-in-out;
   transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
+
+
 
 .carousel-control-prev {
   left: 0;
@@ -162,6 +165,8 @@ padding-top: 100px;
     text-align: center;
     background-color: #FFB400;
 }
+
+
 
 
 

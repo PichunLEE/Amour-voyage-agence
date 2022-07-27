@@ -69,14 +69,12 @@ section h1{
 /* middle photo */
 .nouveaute-fluid{
     background-color: #0275d8;
-    overflow: auto;
     text-align: left;
 }
 
 .nouveaute-fluid .row{
     display: flex;
     flex-wrap: wrap;    
-    margin: 0;
     padding-right: 100px;
 }
 
